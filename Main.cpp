@@ -7,8 +7,12 @@ int main()
 	Manager m = Manager();
 	WindowInteractor wi = WindowInteractor();
 
+	
+	sf::Texture texture = m.DisplaySimpleMandelbrot(window);
+	
+
 	//m.compareColors();
-	wi.initWindow(window, m.DisplaySimpleMandelbrot(window));
+	wi.initWindow(window, texture);
 	//wi.initWindow(window, m.zoomToMandelbrotPoint(window, 10, 0, 10, 0));
 
 }

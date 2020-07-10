@@ -6,7 +6,7 @@
 class Constants {
 	
 	public:
-		unsigned int const static MAX_ITER = 10000;
+		unsigned int const static MAX_ITER = 1000;
 		unsigned int const static WIDTH = 1920;
 		unsigned int const static HEIGHT = 1080;
 

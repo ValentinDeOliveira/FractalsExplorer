@@ -1,8 +1,10 @@
 #include "../../Headers/Utils/WindowInteractor.h"
 
+
 void WindowInteractor::initWindow(sf::RenderWindow &window, sf::Texture texture)
 {
 	sf::Sprite sprite;
+
 	sprite.setTexture(texture);
 	drawSprite(window, sprite);
 
@@ -39,6 +41,7 @@ void WindowInteractor::initWindow(sf::RenderWindow &window, sf::Texture texture)
 void WindowInteractor::drawSprite(sf::RenderWindow& window, sf::Sprite sprite)
 {
 	invertIsFullScreen();
+
 
 	window.clear();
 	window.draw(sprite);

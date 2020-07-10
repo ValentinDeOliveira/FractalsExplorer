@@ -22,7 +22,7 @@ class Manager
 		sf::Texture zoomToMandelbrotPoint(sf::RenderWindow& window, float zoomX, float stepX, float zoomY, float stepY);
 
 		void AnimateToACoordinatePoint(float endingZoomX, float endingZoomY, float endingStepX, float endingStepY, 
-									   float zoomX = 0.85, float stepX = -0.5, float zoomY = 0.85, float stepY = 0);
+									   float zoomX = 0.8, float stepX = -0.5, float zoomY = 0.8, float stepY = 0);
 
 		void animateToJuliaCoordinatePoint(float endingZoom, float endingStepX, float endingStepY,
 										   float startingZoom = 1, float startingStepX = 0, float startingStepY = 0);

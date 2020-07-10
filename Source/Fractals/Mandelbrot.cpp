@@ -1,5 +1,5 @@
 #include "../../Headers/Fractals/Mandelbrot.h"
-#include <iostream>
+#include "../../Headers/Utils/Timer.h"
 
 Mandelbrot::Mandelbrot()
 {
@@ -11,8 +11,8 @@ int Mandelbrot::calculateIterationsZoom(float x, float y, float zoomX, float ste
 	float z_x = 0;
 	float z_y = 0;
 	
-	float c_x = SCREEN_RATIO  * (x - (float)Constants::HALF_WIDTH) / (zoomX * (float)Constants::HALF_WIDTH) + stepX;
-	float c_y = 1.0f * (y - (float)Constants::HALF_HEIGHT)/ (zoomY * (float)Constants::HALF_HEIGHT) + stepY;
+	float c_x = SCREEN_RATIO  * (x - Constants::HALF_WIDTH) / (zoomX * Constants::HALF_WIDTH) + (float)stepX;
+	float c_y = (y - Constants::HALF_HEIGHT)/ (zoomY * Constants::HALF_HEIGHT) + stepY;
 
 	int index = 0;
 
@@ -32,6 +32,10 @@ sf::Image Mandelbrot::calculateFullImage(float zoomX, float stepX, float zoomY, 
 	sf::Image img;
 	img.create(Constants::WIDTH, Constants::HEIGHT);
 
+	Timer timer;
+
+
+	timer.startTimer();
 	for (int x = 0; x < Constants::WIDTH; x++)
 	{
 		for (int y = 0; y < Constants::HEIGHT; y++)
@@ -39,6 +43,8 @@ sf::Image Mandelbrot::calculateFullImage(float zoomX, float stepX, float zoomY, 
 			img.setPixel(x, y, colors->getColorForMandelbrotIteration(Mandelbrot::calculateIterationsZoom((float)x, (float)y, zoomX, stepX, zoomY, stepY)));
 		}
 	}
+	timer.showEllapsedTime();
+
 	return img;
 }
 
