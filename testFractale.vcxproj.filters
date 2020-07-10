@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\Utils">
+      <UniqueIdentifier>{e9e187a7-5027-47c1-98e8-74300696f0d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Utils">
+      <UniqueIdentifier>{56a61fdf-4f2f-4eac-8d75-14c543f8fd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Fractals">
+      <UniqueIdentifier>{2b79511b-36b3-4f5e-907f-070a7d8ca48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Fractals">
+      <UniqueIdentifier>{f2b78615-38b7-4239-8794-c0d660954327}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Fractals\Julia.cpp">
+      <Filter>Fichiers sources\Fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fractals\Mandelbrot.cpp">
+      <Filter>Fichiers sources\Fractals</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Animator.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Colorizer.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Main.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Manager.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\Screenshotter.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utils\WindowInteractor.cpp">
+      <Filter>Fichiers sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Fractals\Julia.h">
+      <Filter>Fichiers d%27en-tête\Fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Fractals\Mandelbrot.h">
+      <Filter>Fichiers d%27en-tête\Fractals</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\Animator.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\Colorizer.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\Manager.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\Screenshotter.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\WindowInteractor.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Utils\Constants.h">
+      <Filter>Fichiers d%27en-tête\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

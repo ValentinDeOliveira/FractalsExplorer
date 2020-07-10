@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (testFractale.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Animator.cpp
+  ColorsMandelbrot.cpp
+  Main.cpp
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Animator.cpp(18,28): warning C4244:  'initialisation' : conversion de 'float' en 'unsigned short', perte possible de données
+  Manager.cpp
+  Mandelbrot.cpp
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Main.cpp(9,80): warning C4305:  'argument' : troncation de 'double' à 'float'
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(40,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(41,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(62,91): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+  Screenshotter.cpp
+  WindowInteractor.cpp
+  Génération de code en cours...
+C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(62,88): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+  testFractale.vcxproj -> C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\Debug\MandelbrotSet.exe
