@@ -15,7 +15,7 @@ sf::Image Julia::calculateFullImage(float zoom, float stepX, float stepY)
 	{
 		for (int y = 0; y < Constants::HEIGHT; y++)
 		{
-			img.setPixel(x, y, colors->getColorForJuliaIteration(Julia::calculateIterations(x, y, zoom, stepX, stepY)));
+			img.setPixel(x, y, colors->getColorForJuliaIteration(Julia::calculateIterations((float)x, (float)y, zoom, stepX, stepY)));
 		}
 	}
 	return img;
@@ -30,7 +30,7 @@ sf::Image Julia::calculateFullImageForColorComparison(int colorOrder, float zoom
 	{
 		for (int y = 0; y < Constants::HEIGHT; y++)
 		{
-			img.setPixel(x, y, colors->getColorForComparison(Julia::calculateIterations(x, y, zoom, stepX, stepY), colorOrder));
+			img.setPixel(x, y, colors->getColorForComparison(Julia::calculateIterations((float)x, (float)y, zoom, stepX, stepY), colorOrder));
 		}
 	}
 	return img;
@@ -38,8 +38,8 @@ sf::Image Julia::calculateFullImageForColorComparison(int colorOrder, float zoom
 
 int Julia::calculateIterations(float x, float y, float zoom, float stepX, float stepY)
 {
-	float z_x = 1.5 * ((float)x - Constants::HALF_WIDTH) / (zoom * Constants::HALF_WIDTH) + stepX;
-	float z_y = 1.0 * ((float)y - Constants::HALF_HEIGHT) / (zoom * Constants::HALF_HEIGHT) + stepY;
+	float z_x = 1.5f * (x - Constants::HALF_WIDTH) / (zoom * (float)Constants::HALF_WIDTH) + stepX;
+	float z_y = 1.0f * (y - Constants::HALF_HEIGHT) / (zoom * (float)Constants::HALF_HEIGHT) + stepY;
 
 
 

@@ -8,8 +8,8 @@ class Julia
 	private:
 		Colorizer* colors;
 
-		float const c_x = 0.285;
-		float const c_y = 0.01;
+		float const c_x = 0.285f;
+		float const c_y = 0.01f;
 
 		//Other points of Julia set
 		/*

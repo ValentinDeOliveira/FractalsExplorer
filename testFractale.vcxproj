@@ -144,7 +144,6 @@
     <ClCompile Include="Source\Fractals\Mandelbrot.cpp" />
     <ClCompile Include="Source\Utils\Animator.cpp" />
     <ClCompile Include="Source\Utils\Colorizer.cpp" />
-    <ClCompile Include="Source\Utils\Main.cpp" />
     <ClCompile Include="Source\Utils\Manager.cpp" />
     <ClCompile Include="Source\Utils\Screenshotter.cpp" />
     <ClCompile Include="Source\Utils\WindowInteractor.cpp" />

@@ -39,9 +39,6 @@
     <ClCompile Include="Source\Utils\Colorizer.cpp">
       <Filter>Fichiers sources\Utils</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Utils\Main.cpp">
-      <Filter>Fichiers sources\Utils</Filter>
-    </ClCompile>
     <ClCompile Include="Source\Utils\Manager.cpp">
       <Filter>Fichiers sources\Utils</Filter>
     </ClCompile>

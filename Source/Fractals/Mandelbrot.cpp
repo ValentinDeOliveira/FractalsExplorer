@@ -11,8 +11,8 @@ int Mandelbrot::calculateIterationsZoom(float x, float y, float zoomX, float ste
 	float z_x = 0;
 	float z_y = 0;
 	
-	float c_x = SCREEN_RATIO  * ((float)x - Constants::HALF_WIDTH) / (zoomX * Constants::HALF_WIDTH) + stepX;
-	float c_y = 1.0 * ((float)y - Constants::HALF_HEIGHT)/ (zoomY * Constants::HALF_HEIGHT) + stepY;
+	float c_x = SCREEN_RATIO  * (x - (float)Constants::HALF_WIDTH) / (zoomX * (float)Constants::HALF_WIDTH) + stepX;
+	float c_y = 1.0f * (y - (float)Constants::HALF_HEIGHT)/ (zoomY * (float)Constants::HALF_HEIGHT) + stepY;
 
 	int index = 0;
 
@@ -36,7 +36,7 @@ sf::Image Mandelbrot::calculateFullImage(float zoomX, float stepX, float zoomY, 
 	{
 		for (int y = 0; y < Constants::HEIGHT; y++)
 		{
-			img.setPixel(x, y, colors->getColorForMandelbrotIteration(Mandelbrot::calculateIterationsZoom(x, y, zoomX, stepX, zoomY, stepY)));
+			img.setPixel(x, y, colors->getColorForMandelbrotIteration(Mandelbrot::calculateIterationsZoom((float)x, (float)y, zoomX, stepX, zoomY, stepY)));
 		}
 	}
 	return img;
@@ -51,7 +51,7 @@ sf::Image Mandelbrot::calculateFullImageForColorComparison(int colorOrder, float
 	{
 		for (int y = 0; y < Constants::HEIGHT; y++)
 		{
-			img.setPixel(x, y, colors->getColorForComparison(Mandelbrot::calculateIterationsZoom(x, y, zoomX, stepX, zoomY, stepY), colorOrder));
+			img.setPixel(x, y, colors->getColorForComparison(Mandelbrot::calculateIterationsZoom((float)x, (float)y, zoomX, stepX, zoomY, stepY), colorOrder));
 		}
 	}
 	return img;

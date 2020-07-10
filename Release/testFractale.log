@@ -1,3 +1,14 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (testFractale.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of Main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Main.cpp, Source\Utils\Main.cpp.
+  Main.cpp
+  Julia.cpp
+  Mandelbrot.cpp
+  Animator.cpp
+  Colorizer.cpp
+  Manager.cpp
+  Screenshotter.cpp
+  WindowInteractor.cpp
+  Génération de code en cours
+  Previous IPDB not found, fall back to full compilation.
+  All 164 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Fin de la génération du code
   testFractale.vcxproj -> C:\Users\valen\testest\FractalsExplorer\Release\MandelbrotSet.exe
