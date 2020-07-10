@@ -1,1 +1,35 @@
-﻿
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (testFractale.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of Main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Main.cpp, Source\Utils\Main.cpp.
+  Main.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Julia.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(18,87): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(18,84): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(33,83): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(33,80): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(41,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+  Mandelbrot.cpp
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(42,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(15,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(39,101): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(39,98): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(54,92): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+  Animator.cpp
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(54,89): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Colorizer.cpp
+  Main.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Manager.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Screenshotter.cpp
+  WindowInteractor.cpp
+  Génération de code en cours...
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+x64\Debug\Main.obj : warning LNK4042: objet spécifié plus d'une fois ; définitions supplémentaires ignorées
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: type d'ordinateur module 'x86' en conflit avec le type d'ordinateur cible 'x64'

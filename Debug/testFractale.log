@@ -1,16 +1,39 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (testFractale.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Animator.cpp
-  ColorsMandelbrot.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(992,5): warning MSB8027: Two or more files with the name of Main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Main.cpp, Source\Utils\Main.cpp.
   Main.cpp
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Animator.cpp(18,28): warning C4244:  'initialisation' : conversion de 'float' en 'unsigned short', perte possible de données
-  Manager.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Julia.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(18,87): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(18,84): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(33,83): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(33,80): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(41,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
   Mandelbrot.cpp
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Main.cpp(9,80): warning C4305:  'argument' : troncation de 'double' à 'float'
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(40,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(41,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(62,91): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Julia.cpp(42,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(15,12): warning C4244:  'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(39,101): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(39,98): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(54,92): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+  Animator.cpp
+C:\Users\valen\testest\FractalsExplorer\Source\Fractals\Mandelbrot.cpp(54,89): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Colorizer.cpp
+  Main.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+  Manager.cpp
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(11,26): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
   Screenshotter.cpp
   WindowInteractor.cpp
   Génération de code en cours...
-C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\testFractale\Mandelbrot.cpp(62,88): warning C4244:  'argument' : conversion de 'int' en 'float', perte possible de données
-  testFractale.vcxproj -> C:\Users\valen\Projets_perso\Fractales\MandelbrotSet\Debug\MandelbrotSet.exe
+C:\Users\valen\testest\FractalsExplorer\Headers\Fractals\Julia.h(12,25): warning C4305:  'initialisation' : troncation de 'double' à 'const float'
+Debug\Main.obj : warning LNK4042: objet spÚcifiÚ plus d'une foisá; dÚfinitions supplÚmentaires ignorÚes
+Julia.obj : error LNK2001: symbole externe non rÚsolu "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B)
+Mandelbrot.obj : error LNK2001: symbole externe non rÚsolu "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B)
+Manager.obj : error LNK2001: symbole externe non rÚsolu "public: static class sf::Color const sf::Color::Black" (?Black@Color@sf@@2V12@B)
+WindowInteractor.obj : error LNK2001: symbole externe non rÚsolu "public: static class sf::RenderStates const sf::RenderStates::Default" (?Default@RenderStates@sf@@2V12@B)
+C:\Users\valen\testest\FractalsExplorer\Debug\MandelbrotSet.exe : fatal error LNK1120: 2 externes non rÚsolus
